@@ -1,0 +1,14 @@
+from django.shortcuts import render
+
+# Create your views here.
+def home(request):
+    context = {}
+    return render(request, 'animalsApp/home.html', context)
+
+def about(request):
+    context = {}
+    return render(request, 'animalsApp/about.html', context)
+
+def contact(request):
+    context = {}
+    return render(request, 'animalsApp/contact.html', context)

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<h1 class="display-5 fw-bold rounded-3">About</h1>
+  
+<video width="320" height="240" controls>
+    <source src="{% static 'svgs\video.mp4' %}"  type="video/mp4"> 
+    Your browser does not support the video tag.
+  </video>
+  
+<p class="lead-ligther">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsum quae qui sapiente vero consequatur odit velit
+    minima corporis, et fugiat a, unde consectetur. Facilis a tempore necessitatibus voluptatum pariatur?</p>
+
+{% endblock %}
